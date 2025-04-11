@@ -187,6 +187,32 @@ sns.heatmap(df[['AgeWeeks', 'Is_Live']].dropna().corr(), annot=True, cmap='coolw
 plt.title('Correlation Heatmap (Age in Weeks vs Live Outcome)')
 plt.show()
 
+def convert_age_to_days(age_str):
+    try:
+        number, unit = age_str.split()[:2]
+        number = int(number)
+        unit = unit.lower()
+        if 'day' in unit:
+            return number
+        elif 'week' in unit:
+            return number * 7
+        elif 'month' in unit:
+            return number * 30
+        elif 'year' in unit:
+            return number * 365
+        else:
+            return None
+    except:
+        return None
+
+df['AgeDays'] = df['Age upon Outcome'].apply(convert_age_to_days)
+
+# ========== Correlation Heatmap using AgeDays ==========
+plt.figure(figsize=(6, 4))
+sns.heatmap(df[['AgeDays', 'Is_Live']].dropna().corr(), annot=True, cmap='coolwarm')
+plt.title('Correlation Heatmap (Age in Days vs Live Outcome)')
+plt.show()
+
 # ========== Boxplot to show AgeWeeks by Outcome Type ==========
 plt.figure(figsize=(10, 6))
 sns.boxplot(data=df, x='Outcome Type', y='AgeWeeks')
