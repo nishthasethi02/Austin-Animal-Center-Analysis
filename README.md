@@ -51,4 +51,5 @@ Have ideas for improvements or want to collaborate on a similar project? Feel fr
 
 🔖 Tags
 #DataScience #AnimalWelfare #Python #Pandas #Seaborn #EDA #AustinAnimalCenter #NoKillPolicy #AdoptionTrends #ShelterAnalytics #DataVisualization #RealWorldData 
+#data
 
