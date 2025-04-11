@@ -36,6 +36,7 @@ matplotlib
 seaborn
 datetime
 
+
 🔍 Key Insights
 Neutered/spayed animals had significantly better outcomes
 Younger animals were adopted at higher rates
