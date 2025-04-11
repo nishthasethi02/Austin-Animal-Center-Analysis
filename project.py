@@ -221,3 +221,13 @@ plt.title('Age (in Weeks) Distribution by Outcome Type (Boxplot)')
 plt.ylabel('Age in Weeks')
 plt.xlabel('Outcome Type')
 plt.show()
+
+# ========== Boxplot to show AgeDays by Outcome Type ==========
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=df, x='Outcome Type', y='AgeDays')
+plt.xticks(rotation=45)
+plt.title('Age (in Days) Distribution by Outcome Type (Boxplot)')
+plt.ylabel('Age in Days')
+plt.xlabel('Outcome Type')
+plt.tight_layout()
+plt.show()
