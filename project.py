@@ -124,7 +124,7 @@ plt.figure(figsize=(14, 6))
 plt.subplot(1, 2, 1)
 ax1 = plt.gca()
 sns.lineplot(data=monthly_adoptions, x='YearMonth', y='AdoptionCount', 
-             color='#2c7bb6', linewidth=2, marker='o', markersize=5, ax=ax1)
+             color='blue', linewidth=2, marker='o', markersize=5, ax=ax1)
 plt.title('Monthly Adoption Trends (2013-2025)', fontsize=14, pad=20)
 plt.xlabel('Year', fontsize=12)
 plt.ylabel('Number of Adoptions', fontsize=12)
