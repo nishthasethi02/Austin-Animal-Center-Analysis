@@ -48,6 +48,16 @@ Intake conditions played a strong role in outcomes
 🌍 Why This Project Matters
 Animal shelters like Austin Animal Center rely on data to make life-saving decisions. This project shows how data analysis can improve adoption rates, support No-Kill policies, and guide compassionate, data-driven strategies — ultimately turning insights into impact for animal welfare. 
 
+🔭 Future Scope
+Predictive Modeling
+- Apply machine learning to forecast outcomes using features like age, breed, and neuter status.
+Survival Analysis
+- Study how long animals stay in the shelter before different outcomes.
+Breed-Specific Trends
+- Analyze adoption rates, shelter duration, and non-live outcomes by breed.
+Interactive Dashboards
+- Create dashboards to inform the public, support organizations, and assist volunteers
+
 🤝 Let's Connect!
 Have ideas for improvements or want to collaborate on a similar project? Feel free to reach out or fork the repo!
 
