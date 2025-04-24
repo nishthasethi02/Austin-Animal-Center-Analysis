@@ -62,5 +62,5 @@ Interactive Dashboards
 Have ideas for improvements or want to collaborate on a similar project? Feel free to reach out or fork the repo!
 
 🔖 Tags
-#DataScience #AnimalWelfare #Python #Pandas #Seaborn #EDA #AustinAnimalCenter #NoKillPolicy #AdoptionTrends #ShelterAnalytics #DataVisualization #RealWorldData 
+#DataScience #AnimalWelfare #Python #Pandas #Seaborn #EDA #AustinAnimalCenter #NoKillPolicy #AdoptionTrends #ShelterAnalytics #DataVisualization #RealWorldData #SCSE
 
